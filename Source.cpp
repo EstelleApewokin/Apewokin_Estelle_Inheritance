@@ -19,7 +19,7 @@ int main() {
 	string manu;
 	int yearBuilt, numDoors, towingCap;
 
-	cout << "Enter manufacturer: ";
+	cout << "Enter vehicle manufacturer: ";
 	getline(cin, manu);
 	v.setManufacturer(manu);
 
@@ -28,5 +28,25 @@ int main() {
 	v.setYear(yearBuilt);
 
 	v.displayInfo();
+
+	cin.ignore();
+	cout << endl;
+
+	cout << "Enter car manufacturer: ";
+	getline(cin, manu);
+	c.setManufacturer(manu);
+
+	cout << "Enter year built: ";
+	cin >> yearBuilt;
+	c.setYear(yearBuilt);
+
+	cout << "Enter number of doors: ";
+	cin >> numDoors;
+	c.setDoors(numDoors);
+
+	c.displayInfo(c);
+
+	cin.ignore();
+	cout << endl;
 
 }

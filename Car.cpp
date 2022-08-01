@@ -16,6 +16,8 @@ int Car::getDoors() {
 }
 
 void Car::displayInfo(Car aCar) {
+	int nDoors = getDoors();
+
 	aCar.Vehicle::displayInfo();
-	cout << "There are " << doors << " doors.\n";
+	cout << "There are " << nDoors << " doors.\n";
 }
