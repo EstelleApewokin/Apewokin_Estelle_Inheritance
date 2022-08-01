@@ -6,6 +6,7 @@
 using namespace std;
 
 Vehicle::Vehicle(){
+	//default constructor
 	manufacturer = "";
 	year = 0;
 }
