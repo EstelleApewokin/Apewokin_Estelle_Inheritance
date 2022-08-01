@@ -49,4 +49,21 @@ int main() {
 	cin.ignore();
 	cout << endl;
 
+	cout << "Enter truck manufacturer: ";
+	getline(cin, manu);
+	t.setManufacturer(manu);
+
+	cout << "Enter year built: ";
+	cin >> yearBuilt;
+	t.setYear(yearBuilt);
+
+	cout << "Enter towing capacity: ";
+	cin >> towingCap;
+	t.setCapacity(towingCap);
+
+	t.displayInfo(t);
+
+	cin.ignore();
+	cout << endl;
+
 }
