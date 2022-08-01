@@ -4,7 +4,7 @@
 using namespace std;
 
 class Vehicle {
-private:
+protected:
 	string manufacturer;
 	int year;
 public:

@@ -28,3 +28,9 @@ string Vehicle::getManufacturer() {
 int Vehicle::getYear() {
 	return year;
 }
+
+void Vehicle::displayInfo() {
+	cout << endl;
+	cout << "Manufacturer is " << manufacturer << ".\n";
+	cout << "This car was built in " << year << ".\n";
+}
