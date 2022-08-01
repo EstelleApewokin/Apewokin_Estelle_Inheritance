@@ -20,6 +20,6 @@ int Truck::getCapacity() {
 void Truck::displayInfo(Truck aTruck) {
 	int tCap = getCapacity();
 
-	aTruck.Vehicle::displayInfo();
-	cout << "Towing capacity is " << tCap << ".\n";
+	aTruck.Vehicle::displayInfo(); //calls vehicle displayInfo function
+	cout << "Towing capacity is " << tCap << ".\n"; //displays truck towing capacity info
 }
