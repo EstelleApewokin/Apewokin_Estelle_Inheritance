@@ -16,5 +16,17 @@ int main() {
 	Car c;
 	Truck t;
 
+	string manu;
+	int yearBuilt, numDoors, towingCap;
+
+	cout << "Enter manufacturer: ";
+	getline(cin, manu);
+	v.setManufacturer(manu);
+
+	cout << "Enter year built: ";
+	cin >> yearBuilt;
+	v.setYear(yearBuilt);
+
+	v.displayInfo();
 
 }
