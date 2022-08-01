@@ -7,9 +7,8 @@ Car::Car() {
 	doors = 0;
 }
 
-void Car::setDoors() {
-	cout << "Enter number of doors: ";
-	cin >> doors;
+void Car::setDoors(int d) {
+	doors = d;
 }
 
 int Car::getDoors() {

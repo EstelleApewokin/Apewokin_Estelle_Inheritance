@@ -7,7 +7,7 @@ private:
 	int doors;
 public:
 	Car();
-	void setDoors();
+	void setDoors(int);
 	int getDoors();
 	void displayInfo(Car);
 };

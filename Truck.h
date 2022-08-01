@@ -10,7 +10,7 @@ private:
 	int capacity;
 public: 
 	Truck();
-	void setCapacity();
+	void setCapacity(int);
 	int getCapacity();
 	void displayInfo(Truck);
 };

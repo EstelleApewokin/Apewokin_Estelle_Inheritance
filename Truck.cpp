@@ -9,9 +9,8 @@ Truck::Truck() {
 	capacity = 0;
 }
 
-void Truck::setCapacity() {
-	cout << "Enter towing capacity: ";
-	cin >> capacity;
+void Truck::setCapacity(int cap) {
+	capacity = cap;
 }
 
 int Truck::getCapacity() {

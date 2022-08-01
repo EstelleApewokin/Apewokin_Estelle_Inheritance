@@ -9,8 +9,8 @@ protected:
 	int year;
 public:
 	Vehicle();
-	void setManufacturer();
-	void setYear();
+	void setManufacturer(string);
+	void setYear(int);
 	string getManufacturer();
 	int getYear();
 	void displayInfo();

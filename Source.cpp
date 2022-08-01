@@ -1,0 +1,20 @@
+//Estelle Apewokin
+//July 31, 2022
+//CIS 1202 5T1
+
+#include "Vehicle.h"
+#include "Car.h"
+#include "Truck.h"
+#include <string>
+#include <iomanip>
+#include <iostream>
+
+using namespace std;
+
+int main() {
+	Vehicle v;
+	Car c;
+	Truck t;
+
+
+}

@@ -10,15 +10,12 @@ Vehicle::Vehicle(){
 	year = 0;
 }
 
-void Vehicle::setManufacturer() {
-	cout << "Enter manufacturer name: ";
-	getline(cin, manufacturer);
-	cin.ignore();
+void Vehicle::setManufacturer(string m) {
+	manufacturer = m;
 }
 
-void Vehicle::setYear() {
-	cout << "Enter build year: ";
-	cin >> year;
+void Vehicle::setYear(int y) {
+	year = y;
 }
 
 string Vehicle::getManufacturer() {
