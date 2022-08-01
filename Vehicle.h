@@ -16,6 +16,4 @@ public:
 	void displayInfo();
 };
 
-
-
 #endif
